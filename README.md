@@ -12,6 +12,8 @@
 - [Array.prototype.join(separator)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) : 배열의 모든 요소들을 `separator`를 기준으로 이어붙인 새 문자열 반환
 - [String.prototype.charCodeAt(index)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt) : 문자의 UTF-16 코드 반환 (0 - 65535 사이)
 - [String.fromCharCode(code1, ...)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode) : `code` sequence에 해당하는 UTF-16 문자열 반환
+- [Array.prototype.filter(callbackFn, thisArg)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) : `callbackFn`은 (element, index, array) 3개의 argument를 받고 truthy 반환. `callbackFn`이 truthy를 반환한 요소만 남김
+- [Array.prototype.reduce(callbackFn, initialValue)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce) : `callbackFn`은 (accumulator, currentValue, currentIndex, array) 4개의 argument를 받고 누적값을 반환. 마지막으로 호출된 `callbackFn`의 반환값이 최종 반환값이 됨
 
 ### 정규 표현식
 
